@@ -56,6 +56,10 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 1.1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 8; /* Number of lines to display */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 .job-short-description-title{
     font-size: 1rem;
